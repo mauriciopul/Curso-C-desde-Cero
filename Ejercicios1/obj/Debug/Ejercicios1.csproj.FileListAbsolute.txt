@@ -1,0 +1,7 @@
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Ejercicios1\bin\Debug\Ejercicios1.exe.config
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Ejercicios1\bin\Debug\Ejercicios1.exe
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Ejercicios1\bin\Debug\Ejercicios1.pdb
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Ejercicios1\obj\Debug\Ejercicios1.csprojAssemblyReference.cache
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Ejercicios1\obj\Debug\Ejercicios1.csproj.CoreCompileInputs.cache
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Ejercicios1\obj\Debug\Ejercicios1.exe
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Ejercicios1\obj\Debug\Ejercicios1.pdb

@@ -1,0 +1,7 @@
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Enums y numeros Magicos\bin\Debug\Enums y numeros Magicos.exe.config
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Enums y numeros Magicos\bin\Debug\Enums y numeros Magicos.exe
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Enums y numeros Magicos\bin\Debug\Enums y numeros Magicos.pdb
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Enums y numeros Magicos\obj\Debug\Enums y numeros Magicos.csprojAssemblyReference.cache
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Enums y numeros Magicos\obj\Debug\Enums y numeros Magicos.csproj.CoreCompileInputs.cache
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Enums y numeros Magicos\obj\Debug\Enums y numeros Magicos.exe
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\Enums y numeros Magicos\obj\Debug\Enums y numeros Magicos.pdb
