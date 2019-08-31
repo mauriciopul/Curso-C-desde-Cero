@@ -9,47 +9,42 @@ namespace Ejercicios1
 {
     class Menu
     {
-        public string ElegirMenu()
-        {
-            // bool band = false;
-            string resp = "";
-            Console.WriteLine("Ingresa el ejercicio que deseas realizar entre el 2 y el 18: ");
-            string letra = Console.ReadLine();
-            if (letra.ToLower()=="s")
-            {
-                int ej = 0;
-            }
+        const string info = "Debe ingresar un número entre 1 y 18 o la letra 's' para salir";
+        const string infoError = "ERROR!!! Recuerda ingresar un número entre 1 y 18 o la letra 's' para salir";
+        
 
+        public void ElegirMenu(int ej)
+        {
+            var ejercicio2 = new Ejercicio2();
+
+            string resp = "";            
             try
             {
-                int ej = int.Parse(Console.ReadLine());
-
                 switch (ej)
                 {
                     case 1:
-                        resp = "Caso 1";
+                        resp = "Caso: " + ej;
                         break;
                     case 2:
-                        resp = "Caso 2";
+                        resp = "Caso: " + ej;
+                        Console.WriteLine(ejercicio2.esPar());
                         break;
                     case 3:
-                        resp = "Caso 3";
+                        resp = "Caso: " + ej;
                         break;
                     case 4:
-                        resp = "Caso 4";
+                        resp = "Caso: " + ej;
                         break;
                     default:
-                        resp = "Debes ingresar un número entre 1 y 18";
+                        resp = info;
                         break;
                 }
-                return resp;
+                Console.WriteLine(resp);
             }
             catch (Exception)
             {
-
-                return "";
+                Console.WriteLine(infoError);
             }
         }
-
     }
 }

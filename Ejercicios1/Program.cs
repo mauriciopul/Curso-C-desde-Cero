@@ -11,30 +11,33 @@ namespace Ejercicios1
         static void Main(string[] args)
         {
             var validadores = new Validadores();
-            ////var ej1 = new Ejercicio2();
-            ////Console.WriteLine(ej1.esPar());
-            //var menu = new Menu();
-            //var resp = menu.ElegirMenu();
-            ////do
-            ////{
-            ////    menu.ElegirMenu();
-            ////} while (resp.ToLower() != "s");
-            //    Console.WriteLine(resp);
+            var menu = new Menu();
+            //var ej1 = new Ejercicio2();
+            const string infoInicial = "Este programa tiene 18 ejercicios y debes elegir el ejercicio que deseas mostrar";
+            bool sw = true;
 
-            ////if (menu.ElegirMenu() == "s")
-            ////{
-            ////    Console.WriteLine("Presionó la tecla S");
-            ////    finPrograma();
-            ////}
-            ////else
-            ////{
-            ////    Console.WriteLine(menu.ElegirMenu());
-            ////}
-            Console.WriteLine(validadores.esS("2"));
+            do
+            {
+                Console.WriteLine(infoInicial);
+                Console.WriteLine();
+                string numEjer = Console.ReadLine();
 
-
-            finPrograma();
+                if (validadores.esNumero(numEjer) && validadores.estaEntre1y18(numEjer))
+                {
+                    menu.ElegirMenu(Convert.ToInt32(numEjer));
+                }
+                else if (validadores.esS(numEjer))
+                {
+                    finPrograma();
+                    sw = false;
+                }
+            } while (sw==true);
         }
+
+
+        /// <summary>
+        /// Saltos de linea y mensajes para finalizar un programa
+        /// </summary>
         public static void finPrograma()
         {
             Console.WriteLine();
@@ -42,6 +45,7 @@ namespace Ejercicios1
             Console.WriteLine("Programa finalizado");
             Console.WriteLine("Presiona ENTER para salir");
             Console.Read();
+
         }
     }
 }
