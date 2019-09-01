@@ -18,6 +18,7 @@ namespace Ejercicios1
             var ejercicio1 = new Ejercicio1();
             var ejercicio2 = new Ejercicio2();
             var ejercicio3 = new Ejercicio3();
+            var ejercicio4 = new Ejercicio4();
 
             //string resp = "";            
             try
@@ -38,6 +39,7 @@ namespace Ejercicios1
                         break;
                     case 4:
                         Console.WriteLine("Caso: " + ej);
+                        Console.WriteLine(ejercicio4.datos());
                         break;
                     default:
                         Console.WriteLine(info);
