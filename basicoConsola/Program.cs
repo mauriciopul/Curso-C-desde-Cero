@@ -34,7 +34,7 @@ namespace basicoConsola
             //// Contains --> Valida si la frase contiene un caracter o caracteres que le indicamos
             //Console.WriteLine(frase.Contains("Jose"));
 
-            ////trim() --> Elimina los espacios al inicio y al final de una cadena
+            //// trim() --> Elimina los espacios al inicio y al final de una cadena
             //string ejemploTrim = " Mauricio ";
             //Console.WriteLine(ejemploTrim.Trim());
 

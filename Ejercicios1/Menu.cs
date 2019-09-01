@@ -15,31 +15,35 @@ namespace Ejercicios1
 
         public void ElegirMenu(int ej)
         {
+            var ejercicio1 = new Ejercicio1();
             var ejercicio2 = new Ejercicio2();
+            var ejercicio3 = new Ejercicio3();
 
-            string resp = "";            
+            //string resp = "";            
             try
             {
                 switch (ej)
                 {
                     case 1:
-                        resp = "Caso: " + ej;
+                        Console.WriteLine("Caso: " + ej);
+                        Console.WriteLine(ejercicio1.ejercicio());
                         break;
                     case 2:
-                        resp = "Caso: " + ej;
+                        Console.WriteLine("Caso: " + ej);
                         Console.WriteLine(ejercicio2.esPar());
                         break;
                     case 3:
-                        resp = "Caso: " + ej;
+                        Console.WriteLine("Caso: " + ej);
+                        Console.WriteLine(ejercicio3.datos());
                         break;
                     case 4:
-                        resp = "Caso: " + ej;
+                        Console.WriteLine("Caso: " + ej);
                         break;
                     default:
-                        resp = info;
+                        Console.WriteLine(info);
                         break;
                 }
-                Console.WriteLine(resp);
+                //Console.WriteLine(resp);
             }
             catch (Exception)
             {

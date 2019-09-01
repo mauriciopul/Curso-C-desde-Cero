@@ -4,3 +4,4 @@ E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\basicoConso
 E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\basicoConsola\obj\Debug\basicoConsola.csproj.CoreCompileInputs.cache
 E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\basicoConsola\obj\Debug\basicoConsola.exe
 E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\basicoConsola\obj\Debug\basicoConsola.pdb
+E:\Educacion\C#\Curso C# de youtube gavilanch2\basicoConsolaSolucion\basicoConsola\obj\Debug\basicoConsola.csprojAssemblyReference.cache
