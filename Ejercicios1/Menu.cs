@@ -26,19 +26,15 @@ namespace Ejercicios1
                 switch (ej)
                 {
                     case 1:
-                        Console.WriteLine("Caso: " + ej);
                         Console.WriteLine(ejercicio1.ejercicio());
                         break;
                     case 2:
-                        Console.WriteLine("Caso: " + ej);
                         Console.WriteLine(ejercicio2.esPar());
                         break;
                     case 3:
-                        Console.WriteLine("Caso: " + ej);
                         Console.WriteLine(ejercicio3.datos());
                         break;
                     case 4:
-                        Console.WriteLine("Caso: " + ej);
                         Console.WriteLine(ejercicio4.datos());
                         break;
                     default:

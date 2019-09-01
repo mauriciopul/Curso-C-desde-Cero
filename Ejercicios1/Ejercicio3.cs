@@ -8,18 +8,28 @@ namespace Ejercicios1
 {
     class Ejercicio3
     {
-        //Escribir un método que acepte dos strings y devuelva el string con más caracteres. 
-        //Si ambos tienen la misma cantidad de caracteres, devolver cualquiera de los dos.
+        Enunciados enun = new Enunciados();
 
-        public string  datos()
+        /// <summary>
+        /// Metodo que pide los datos para procesar
+        /// </summary>
+        /// <returns></returns>
+        public string datos()
         {
+            Console.WriteLine(enun.enunciado3());
             Console.WriteLine("Ingrese la primer cadena: ");
             string cad1 = Console.ReadLine();
             Console.WriteLine("Ingrese la segunda cadena: ");
             string cad2 = Console.ReadLine();
-           return  ejercicio(cad1, cad2);
+            return ejercicio(cad1, cad2);
         }
 
+        /// <summary>
+        /// Metodo que valida cual cadena es mas larga
+        /// </summary>
+        /// <param name="a">Cadena 1</param>
+        /// <param name="b">Cadena 2</param>
+        /// <returns>Retorna respuesta con la cadena más larga</returns>
         public string ejercicio(string a, string b)
         {
             try
@@ -40,13 +50,12 @@ namespace Ejercicios1
                         resp = b;
                     }
                 }
-                return "La cadena mas larga es... "+resp;
+                return "La cadena mas larga es... " + resp;
             }
             catch (Exception ex)
             {
                 return "ERROR!!!... " + ex.ToString();
             }
         }
-
     }
 }

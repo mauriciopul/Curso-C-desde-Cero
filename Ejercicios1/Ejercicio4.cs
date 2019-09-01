@@ -9,18 +9,8 @@ using System.Threading.Tasks;
 namespace Ejercicios1
 {
     class Ejercicio4
-    {        
-        /// <summary>
-        /// Enunciado del ejercicio
-        /// </summary>
-        /// <returns></returns>
-        public string enunciado()
-        {
-            string l1 = "Escribir un método que acepte dos catetos y devuelve la hipotenusa";
-            string l2 = "(usar la clase Math para calcular la raíz cuadrada)";
-            string l3 =  l1 + Environment.NewLine + l2 + Environment.NewLine;
-            return l3;
-        }
+    {
+        Enunciados enun = new Enunciados();
 
         /// <summary>
         /// metodo para solicitar los datos y procesarlos
@@ -28,7 +18,7 @@ namespace Ejercicios1
         /// <returns></returns>
         public string datos()
         {
-            Console.WriteLine(enunciado());
+            Console.WriteLine(enun.enunciado4());
             Console.WriteLine("Ingrese el Cateto 1");
             int cateto1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese el Cateto 2");

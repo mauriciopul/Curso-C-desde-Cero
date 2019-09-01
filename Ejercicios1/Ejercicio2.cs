@@ -8,17 +8,21 @@ namespace Ejercicios1
 {
     class Ejercicio2
     {
-        //Escribir un método que acepte un número y devuelva True si el número es par, o false si es impar.
+        Enunciados enun = new Enunciados();
 
+        /// <summary>
+        /// Metodo que calcula si un número es par
+        /// </summary>
+        /// <returns></returns>
         public string esPar()
         {
+            Console.WriteLine(enun.enunciado2());
             var validador = new Validadores();
             Console.WriteLine("Ingrese un número: ");
             int n = int.Parse(Console.ReadLine());
             string respuesta = validador.esParBool(n).ToString();
-            string re= "El numero " + n + " es par?: " + respuesta;
+            string re = "El numero " + n + " es par?: " + respuesta;
             return re;
         }
-
     }
 }

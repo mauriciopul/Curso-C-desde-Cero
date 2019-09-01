@@ -8,14 +8,20 @@ namespace Ejercicios1
 {
     class Ejercicio1
     {
-        //Permitir al usuario escribir dos números y mostrar en pantalla cuál de los dos es el más grande. 
-        //Si son iguales, mostrar cualquiera.
+        Enunciados enun = new Enunciados();
+
+        /// <summary>
+        /// Metodo que calcula el mayor de 2 numeros dados
+        /// </summary>
+        /// <returns></returns>
         public string ejercicio()
         {
+
             while (true)
             {
                 try
                 {
+                    Console.WriteLine(enun.enunciado1());
                     Console.Write("Primer Número: ");
                     int a = Convert.ToInt32(Console.ReadLine());
                     Console.Write("Segundo Número: ");
@@ -28,7 +34,7 @@ namespace Ejercicios1
                     else
                     {
                         return resp = "El mayor es: " + b;
-                    }                    
+                    }
                 }
                 catch (Exception)
                 {
