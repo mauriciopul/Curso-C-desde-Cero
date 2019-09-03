@@ -8,17 +8,20 @@ namespace Ejercicios1
 {
     class Ejercicio5
     {
-        /// <summary>
-        /// Enunciado del ejercicio 5
-        /// </summary>
-        /// <returns></returns>
-        public string enunciado()
+        Enunciados en = new Enunciados();
+
+        public string ejercicio()
         {
-            string tit = "" + Environment.NewLine;
-            string l1 = "" + Environment.NewLine;
-            string l2 = "" + Environment.NewLine;
-            string l3 = "" + Environment.NewLine;
-            return l3;
+            Console.WriteLine(en.enunciado5());
+            
+            for (int i = 0; i <= 100; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                }                
+            }
+            return "";
         }
     }
 }

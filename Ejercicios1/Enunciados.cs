@@ -51,11 +51,32 @@ namespace Ejercicios1
         /// <returns></returns>
         public string enunciado4()
         {
-            string tit = "" + Environment.NewLine;
+            string tit = "Ejercicio 4" + Environment.NewLine;
             string l1 = "Escribir un método que acepte dos catetos y devuelve la hipotenusa" + Environment.NewLine;
             string l2 = "(usar la clase Math para calcular la raíz cuadrada)" + Environment.NewLine;
             string l3 = tit + l1 + l2;
             return l3;
         }
+        
+        /// <summary>
+        /// Enunciado del ejercicio 5
+        /// </summary>
+        /// <returns></returns>
+        public string enunciado5()
+        {
+            string tit = "Ejercici 5" + Environment.NewLine;
+            string l1 = "Utilizando un iterador escribir en pantalla los números del 1 al 100 de dos en dos." + Environment.NewLine;
+            string l = l1;
+            return l;
+        }
+
+        //public string enunciado()
+        //{
+        //    string tit = "" + Environment.NewLine;
+        //    string l1 = "" + Environment.NewLine;
+
+        //    string l = l1;
+        //    return l;
+        //}
     }
 }
