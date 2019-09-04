@@ -11,7 +11,9 @@ namespace Ejercicios1
         static void Main(string[] args)
         {
             var validadores = new Validadores();
-            var menu = new Menu();            
+            var menu = new Menu();
+
+
             
             bool sw = true;
 

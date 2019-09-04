@@ -26,7 +26,7 @@ la raíz cuadrada)
 
 
 6) Escribir un método que acepte un double que represente un número en grados Celcius y lo
-transforme a grados Fahrenheit.
+ transforme a grados Fahrenheit.
 
 
 
