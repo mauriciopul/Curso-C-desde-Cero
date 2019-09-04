@@ -23,7 +23,7 @@ namespace Ejercicios1
 
                 string numEjer = Console.ReadLine();
 
-                if (validadores.esNumero(numEjer) && validadores.estaEntre1y18(numEjer))
+                if (validadores.esNumeroEntero(numEjer) && validadores.estaEntre1y18(numEjer))
                 {
                     menu.ElegirMenu(Convert.ToInt32(numEjer));
                 }

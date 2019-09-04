@@ -13,11 +13,24 @@ namespace Ejercicios1
         /// </summary>
         /// <param name="num">Caracter a comparar</param>
         /// <returns>Regresa un booleano</returns>
-        public bool esNumero(string num)
+        public bool esNumeroEntero(string num)
         {
             try
             {
                 Convert.ToInt32(num);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public bool esNumeroDoble(string num)
+        {
+            try
+            {
+                Convert.ToDouble(num);
                 return true;
             }
             catch (Exception)

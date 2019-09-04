@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+ 
 
 
 namespace Ejercicios1
@@ -15,11 +16,12 @@ namespace Ejercicios1
 
         public void ElegirMenu(int ej)
         {
-            var ejercicio1 = new Ejercicio1();
-            var ejercicio2 = new Ejercicio2();
-            var ejercicio3 = new Ejercicio3();
-            var ejercicio4 = new Ejercicio4();
-            var ejercicio5 = new Ejercicio5();
+            var ejercicio1 = new Ejercicios.Ejercicio1();
+            var ejercicio2 = new Ejercicios.Ejercicio2();
+            var ejercicio3 = new Ejercicios.Ejercicio3();
+            var ejercicio4 = new Ejercicios.Ejercicio4();
+            var ejercicio5 = new Ejercicios.Ejercicio5();
+            var ejercicio6 = new Ejercicios.Ejercicio6();
 
             //string resp = "";            
             try
@@ -42,7 +44,7 @@ namespace Ejercicios1
                         Console.WriteLine(ejercicio5.ejercicio());
                         break;
                     case 6:
-                        Console.WriteLine("Caso 6");
+                        Console.WriteLine(ejercicio6.convertirGrados());
                         break;
                     case 7:
                         Console.WriteLine("Caso 7");
